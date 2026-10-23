@@ -1,0 +1,901 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Car Detailing &amp; Ceramic Coating Melbourne | Meticulous Car Detailing</title>
+<meta name="description" content="Accredited Magnum Ceramic Coating applicator in Springvale, South East Melbourne. Ceramic coating, paint correction, interior detailing and mobile car detailing. Free quote in 15 minutes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="images/30_result-6.webp" fetchpriority="high">
+<link rel="icon" href="images/LLMet_Other-photos_result.webp">
+<style>
+:root{
+  --bg:#080808;
+  --bg-2:#0f0f0f;
+  --bg-3:#141414;
+  --card:#121212;
+  --line:rgba(255,255,255,.09);
+  --line-2:rgba(255,255,255,.16);
+  --text:#f0f0f0;
+  --muted:#a3a3a3;
+  --dim:#6f6f6f;
+  --blue:#7ab8ea;
+  --blue-2:#4f86d6;
+  --blue-3:#9fdcfa;
+  --blue-glow:rgba(122,184,234,.35);
+  --brand:linear-gradient(120deg,#4f86d6 0%,#7ab8ea 50%,#a9e2fb 100%);
+  --silver:linear-gradient(110deg,#9a9a9a 0%,#f4f4f4 28%,#c9c9c9 48%,#ffffff 66%,#a8a8a8 100%);
+  --display:"Barlow Condensed",sans-serif;
+  --body:"Outfit",sans-serif;
+  --wrap:1200px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:var(--body);font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+strong{color:#fff;font-weight:600}
+.wrap{width:100%;max-width:var(--wrap);margin:0 auto;padding:0 24px}
+
+/* ---------- type ---------- */
+.eyebrow{display:flex;align-items:center;gap:16px;font-family:var(--display);font-weight:600;font-size:15px;letter-spacing:.32em;text-transform:uppercase;color:var(--blue);margin-bottom:18px}
+.eyebrow::before{content:none}
+.eyebrow.center{justify-content:center}
+h1,h2,h3,h4{font-family:var(--display);font-weight:900;text-transform:uppercase;line-height:.98;letter-spacing:.005em}
+h1{font-size:clamp(46px,7vw,92px)}
+h2{font-size:clamp(38px,5.2vw,68px)}
+h3{font-size:24px;font-weight:800;letter-spacing:.03em}
+.metal{background:var(--brand);-webkit-background-clip:text;background-clip:text;color:transparent}
+.blue{color:var(--blue)}
+.lead{color:var(--muted);font-size:clamp(17px,1.5vw,20px);max-width:720px}
+.center{text-align:center}
+.center .lead{margin-left:auto;margin-right:auto}
+
+/* ---------- buttons ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:12px;font-family:var(--display);font-weight:800;font-size:19px;letter-spacing:.14em;text-transform:uppercase;padding:18px 34px;border-radius:4px;transition:transform .2s,box-shadow .2s,border-color .2s,background .2s;cursor:pointer;border:0;white-space:nowrap}
+.btn-silver{background:var(--brand);background-size:200% 100%;color:#06131f;box-shadow:0 10px 30px -10px var(--blue-glow)}
+.btn-silver:hover{transform:translateY(-2px);background-position:100% 0;box-shadow:0 16px 44px -10px rgba(122,184,234,.6)}
+.btn-ghost{border:1px solid var(--line-2);color:#e8e8e8;background:rgba(0,0,0,.25)}
+.btn-ghost:hover{border-color:var(--blue);background:rgba(122,184,234,.08);color:#fff}
+.btn-sm{font-size:15px;padding:11px 18px}
+.btn .bolt{color:#06131f}
+
+/* ---------- header ---------- */
+header{position:fixed;inset:0 0 auto 0;z-index:50;background:rgba(8,8,8,.86);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid rgba(122,184,234,.18)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:84px;gap:24px}
+.logo img{height:46px;width:auto}
+.menu{display:flex;gap:34px;font-family:var(--display);font-weight:600;font-size:16px;letter-spacing:.18em;text-transform:uppercase;color:#cfcfcf}
+.menu a{position:relative;transition:color .2s}
+.menu a::after{content:"";position:absolute;left:0;right:0;bottom:-8px;height:2px;background:var(--brand);transform:scaleX(0);transition:transform .25s}
+.menu a:hover{color:#fff}
+.menu a:hover::after{transform:scaleX(1)}
+.nav-right{display:flex;align-items:center;gap:18px}
+.nav-phone{font-family:var(--display);font-weight:700;font-size:19px;letter-spacing:.08em;color:#fff}
+.burger{display:none;width:44px;height:44px;background:none;border:0;cursor:pointer;flex-direction:column;justify-content:center;gap:7px;padding:8px}
+.burger span{display:block;height:2px;background:#fff;border-radius:2px;transition:.25s}
+.drawer{display:none}
+
+/* ---------- hero ---------- */
+.hero{position:relative;min-height:min(100vh,860px);display:flex;align-items:center;padding:130px 0 70px;overflow:hidden;background:var(--bg)}
+.hero .wrap{position:relative;z-index:2}
+.hero-inner{max-width:560px}
+.hero h1{font-size:clamp(52px,5.6vw,84px)}
+/* photo fills the right side and fades into the black, same treatment as mobile */
+.hero-photo{position:absolute;top:84px;right:0;bottom:0;width:60%;margin:0;z-index:1}
+.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:28% 66%}
+.hero-photo::after{content:"";position:absolute;inset:0;background:
+  linear-gradient(90deg,var(--bg) 0%,rgba(8,8,8,.55) 22%,transparent 48%),
+  linear-gradient(0deg,var(--bg) 0%,transparent 26%)}
+.hero-photo figcaption{position:absolute;right:28px;bottom:26px;z-index:1;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:#bcd9f2}
+.hero p.lead{margin:24px 0 36px;color:#d6d6d6}
+.hero-ctas{display:flex;flex-wrap:wrap;gap:14px}
+.stats{display:grid;grid-template-columns:repeat(4,auto);justify-content:start;margin-top:44px;border-top:1px solid var(--line);padding-top:22px}
+.stat{padding:0 26px;border-left:1px solid var(--line)}
+.stat:first-child{padding-left:0;border-left:0}
+.stat b{font-size:32px!important}
+.stat span{font-size:11px!important;letter-spacing:.14em}
+.stat b{display:block;font-family:var(--display);font-weight:900;font-size:40px;line-height:1;background:var(--brand);-webkit-background-clip:text;background-clip:text;color:transparent}
+.stat span{display:block;margin-top:8px;font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+
+/* ---------- brands ---------- */
+.brands{border-block:1px solid var(--line);background:var(--bg-2);padding:26px 0;overflow:hidden}
+.brand-track{display:flex;gap:56px;width:max-content;animation:scroll 32s linear infinite}
+.brand-track img{height:46px;width:auto;filter:grayscale(1) invert(1) brightness(1.6) contrast(.9);mix-blend-mode:screen;opacity:.6}
+@keyframes scroll{to{transform:translateX(-50%)}}
+
+/* ---------- sections ---------- */
+section{padding:120px 0;position:relative}
+.alt{background:radial-gradient(ellipse 60% 50% at 100% 0%,rgba(79,134,214,.10),transparent 70%),var(--bg-2)}
+.split{display:grid;grid-template-columns:1.05fr .95fr;gap:72px;align-items:center}
+.split .text p{color:var(--muted);margin-top:22px}
+.split .text h2{margin-bottom:6px}
+.figure{position:relative;border-radius:6px;overflow:hidden;border:1px solid var(--line)}
+.figure img{width:100%;height:100%;object-fit:cover;aspect-ratio:4/5}
+.figure img,.card .ph img,.gallery img,.duo .panel img{object-position:var(--f,50% 50%)}
+.figure .badge{position:absolute;left:18px;bottom:18px;right:18px;background:rgba(8,8,8,.82);backdrop-filter:blur(10px);border:1px solid var(--line-2);border-radius:4px;padding:16px 20px;display:flex;align-items:center;gap:16px}
+.badge b{font-family:var(--display);font-size:34px;font-weight:900;line-height:1}
+.badge span{font-size:14px;color:var(--muted);line-height:1.35}
+
+.ticks{list-style:none;margin-top:30px;display:grid;gap:16px}
+.ticks li{display:grid;grid-template-columns:26px 1fr;gap:14px;color:var(--muted)}
+.ticks li::before{content:"";width:22px;height:22px;margin-top:3px;border-radius:50%;background:
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23111' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12.5l4.2 4L19 7'/%3E%3C/svg%3E") center/13px no-repeat,var(--brand)}
+
+/* services */
+.sec-head{margin-bottom:60px}
+.sec-head .lead{margin-top:20px}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:6px;overflow:hidden;display:flex;flex-direction:column;transition:border-color .25s,transform .25s}
+.card:hover{border-color:rgba(122,184,234,.45);transform:translateY(-4px);box-shadow:0 24px 50px -24px var(--blue-glow)}
+.card .ph{aspect-ratio:16/10;overflow:hidden}
+.card .ph img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.card:hover .ph img{transform:scale(1.05)}
+.card .body{padding:28px 28px 30px;display:flex;flex-direction:column;flex:1}
+.card p{color:var(--muted);font-size:15.5px;margin:12px 0 20px;flex:1}
+.card ul{list-style:none;display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px}
+.card li{font-size:12.5px;letter-spacing:.06em;color:#cfe6f7;background:rgba(122,184,234,.07);border:1px solid rgba(122,184,234,.28);padding:5px 10px;border-radius:30px}
+.more{font-family:var(--display);font-weight:700;font-size:15px;letter-spacing:.2em;text-transform:uppercase;color:var(--blue);display:inline-flex;gap:10px;transition:gap .2s,color .2s}
+.more:hover{color:var(--blue-3);gap:16px}
+
+/* why */
+.why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.why{background:var(--bg);padding:40px 30px}
+.why .ico{width:88px;height:88px;margin:-8px 0 18px -8px;transition:transform .5s cubic-bezier(.2,.7,.1,1)}
+.why .ico svg{width:100%;height:100%;overflow:visible}
+.why:hover .ico{transform:translateY(-6px) rotate(-4deg)}
+.why{transition:background .3s}
+.why:hover{background:#0b0f14}
+.why p{color:var(--muted);font-size:15.5px;margin-top:12px}
+
+/* process */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:56px 40px;counter-reset:s}
+.step{text-align:center;padding:0 10px}
+.step .n{font-family:var(--display);font-weight:900;font-size:84px;line-height:1;background:var(--brand);-webkit-background-clip:text;background-clip:text;color:transparent}
+.step h4{font-family:var(--display);font-weight:700;font-size:17px;letter-spacing:.2em;margin:16px 0 10px}
+.step p{color:var(--muted);font-size:15px;max-width:320px;margin:0 auto}
+
+/* mobile vs workshop */
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.duo .panel{position:relative;border-radius:6px;overflow:hidden;min-height:440px;display:flex;align-items:flex-end;border:1px solid var(--line)}
+.duo .panel img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.duo .panel::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(8,8,8,.96) 10%,rgba(8,8,8,.2) 70%)}
+.duo .panel .in{position:relative;z-index:1;padding:36px}
+.duo .panel p{color:#cfcfcf;margin:12px 0 22px;max-width:440px}
+.tag{display:inline-block;font-family:var(--display);font-weight:700;font-size:13px;letter-spacing:.24em;text-transform:uppercase;padding:6px 12px;border:1px solid rgba(122,184,234,.5);border-radius:3px;margin-bottom:16px;color:var(--blue-3);background:rgba(6,19,31,.6)}
+
+/* cta band */
+.band{background:radial-gradient(ellipse 70% 120% at 50% 100%,rgba(79,134,214,.28),transparent 70%),var(--bg-3);border-block:1px solid rgba(122,184,234,.25);padding:90px 0;text-align:center}
+.band .lead{margin:18px auto 34px}
+.band .row{display:flex;flex-wrap:wrap;justify-content:center;gap:14px}
+
+/* gallery */
+.gallery{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:260px;grid-auto-flow:dense;gap:12px}
+.gallery-dots{display:none}
+.gallery a{position:relative;overflow:hidden;border-radius:4px;border:1px solid var(--line)}
+.gallery img{width:100%;height:100%;object-fit:cover;transition:transform .6s,filter .4s;filter:saturate(.85)}
+.gallery a{transition:border-color .3s}
+.gallery a:hover{border-color:rgba(122,184,234,.6)}
+.gallery a:hover img{transform:scale(1.06);filter:saturate(1.05)}
+.gallery .tall{grid-row:span 2}
+.gallery .wide{grid-column:span 2}
+
+/* before / after */
+.ba-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start}
+.ba{margin:0}
+.ba-frame{position:relative;overflow:hidden;border-radius:6px;border:1px solid var(--line);aspect-ratio:4/5;background:#111;touch-action:pan-y;user-select:none;--x:50%}
+.ba-frame img{position:absolute;inset:0;width:100%;height:100%;transition:opacity .5s ease;object-fit:cover;pointer-events:none}
+.ba-frame .before{clip-path:inset(0 calc(100% - var(--x)) 0 0)}
+.ba-line{position:absolute;top:0;bottom:0;left:var(--x);width:2px;margin-left:-1px;background:#fff;box-shadow:0 0 12px rgba(0,0,0,.5);pointer-events:none}
+.ba-knob{position:absolute;top:50%;left:var(--x);width:48px;height:48px;margin:-24px 0 0 -24px;border-radius:50%;background:var(--brand);box-shadow:0 6px 20px rgba(0,0,0,.45);display:grid;place-items:center;pointer-events:none}
+.ba-knob svg{width:22px;height:22px;stroke:#06131f}
+.ba-range{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;margin:0}
+.ba-tag{position:absolute;top:14px;font-family:var(--display);font-weight:700;font-size:13px;letter-spacing:.22em;text-transform:uppercase;padding:6px 12px;border-radius:3px;background:rgba(8,8,8,.7);color:#fff;pointer-events:none}
+.ba-tag.b{left:14px}.ba-tag.a{right:14px;color:#06131f;background:var(--blue)}
+.ba-bar{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:16px}
+.ba-bar b{display:block;font-family:var(--display);font-weight:800;font-size:22px;letter-spacing:.03em;text-transform:uppercase}
+.ba-bar small{color:var(--muted);font-size:14px}
+.ba-toggle{display:flex;border:1px solid var(--line-2);border-radius:4px;overflow:hidden;flex-shrink:0}
+.ba-toggle button{background:none;border:0;color:#cfcfcf;font-family:var(--display);font-weight:700;font-size:14px;letter-spacing:.18em;text-transform:uppercase;padding:10px 16px;cursor:pointer}
+.ba-frame.fade .before{clip-path:none;opacity:0}
+.ba-frame.fade.show-before .before{opacity:1}
+.ba-frame.fade .ba-tag.b{opacity:0;transition:opacity .3s}.ba-frame.fade.show-before .ba-tag.b{opacity:1}
+.ba-frame.fade .ba-tag.a{transition:opacity .3s}.ba-frame.fade.show-before .ba-tag.a{opacity:0}
+.ba-toggle button.on{background:var(--blue);color:#06131f}
+
+/* reviews */
+.rating{display:flex;flex-direction:column;align-items:center;gap:6px;margin:-20px 0 50px}
+.rating .big{font-family:var(--body);font-weight:700;font-size:26px;letter-spacing:.04em}
+.stars{color:#f5b301;font-size:28px;letter-spacing:4px;line-height:1}
+.rating small{color:var(--muted);font-size:15px}
+.rating small a{text-decoration:underline;color:var(--blue)}
+.reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.review{background:var(--card);border:1px solid var(--line);border-top:2px solid rgba(122,184,234,.55);border-radius:6px;padding:26px;display:flex;flex-direction:column;gap:14px}
+.review .who{display:flex;align-items:center;gap:12px}
+.av{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;font-weight:600;color:#fff;font-size:17px}
+.review .who b{display:block;font-size:15.5px;font-weight:600}
+.review .who small{color:var(--dim);font-size:13px}
+.review .g{margin-left:auto;width:20px;height:20px}
+.review .stars{font-size:17px;letter-spacing:2px}
+.review p{color:#cfcfcf;font-size:15px;line-height:1.6}
+
+/* team */
+.team img{aspect-ratio:3/4;--f:50% 15%}
+
+/* location + form */
+.contact{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:start}
+.info{display:grid;gap:14px;margin-top:34px}
+.info .row{display:grid;grid-template-columns:52px 1fr;gap:16px;align-items:center;padding:18px 20px;border:1px solid var(--line);border-radius:6px;background:var(--card)}
+.info .row svg{width:22px;height:22px;stroke:var(--blue);justify-self:center}
+.info .row{transition:border-color .2s}
+.info .row:hover{border-color:rgba(122,184,234,.45)}
+.info small{display:block;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--dim)}
+.info b{font-weight:500;color:#fff}
+.hours{margin-top:14px;border:1px solid var(--line);border-radius:6px;background:var(--card);padding:20px 24px}
+.hours div{display:flex;justify-content:space-between;padding:7px 0;border-bottom:1px dashed var(--line);font-size:15px;color:var(--muted)}
+.hours div:last-child{border:0}
+.hours div span:last-child{color:#fff}
+.map{margin-top:14px;border-radius:6px;overflow:hidden;border:1px solid var(--line);height:240px}
+.map iframe{width:100%;height:100%;border:0;filter:grayscale(1) invert(.92) contrast(.9)}
+
+.form{background:radial-gradient(ellipse 80% 40% at 50% 0%,rgba(79,134,214,.14),transparent 70%),var(--card);border:1px solid rgba(122,184,234,.3);box-shadow:0 30px 80px -40px var(--blue-glow);border-radius:8px;padding:44px}
+.form h3{font-size:42px;font-weight:900}
+.form .sub{color:var(--muted);margin:10px 0 28px}
+.f2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.form label{display:block;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--dim);margin-bottom:8px}
+.form .field{margin-bottom:16px}
+.form input,.form select,.form textarea{width:100%;background:#0a0a0a;border:1px solid var(--line-2);border-radius:4px;color:#fff;padding:15px 16px;font:inherit;font-size:16px;transition:border-color .2s}
+.form textarea{min-height:120px;resize:vertical}
+.form input:focus,.form select:focus,.form textarea:focus{outline:none;border-color:var(--blue);box-shadow:0 0 0 3px rgba(122,184,234,.18)}
+.form .btn{width:100%;margin-top:8px}
+.form .note{font-size:13px;color:var(--dim);text-align:center;margin-top:14px}
+.form .ok{display:none;margin-top:16px;padding:14px;border:1px solid var(--line-2);border-radius:4px;text-align:center;color:#fff}
+
+/* faq */
+.faq{max-width:900px;margin:0 auto}
+.faq details{border-bottom:1px solid var(--line)}
+.faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:26px 0;font-family:var(--display);font-weight:700;font-size:22px;letter-spacing:.04em;text-transform:uppercase}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font-family:var(--body);font-weight:300;font-size:30px;line-height:1;transition:transform .25s;color:var(--blue)}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq details[open] summary{color:var(--blue-3)}
+.faq details p{color:var(--muted);padding:0 0 26px;max-width:780px}
+
+/* footer */
+footer{background:#050505;border-top:2px solid transparent;border-image:var(--brand) 1;padding:80px 0 40px;color:var(--muted);font-size:15px}
+.foot{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.2fr;gap:48px}
+.foot h5{font-family:var(--display);font-weight:700;font-size:15px;letter-spacing:.24em;text-transform:uppercase;color:#fff;margin-bottom:20px}
+.foot ul{list-style:none;display:grid;gap:10px}
+.foot a:hover{color:var(--blue)}
+.socials{display:flex;gap:10px;margin-top:22px}
+.socials a{width:42px;height:42px;border:1px solid var(--line-2);border-radius:50%;display:grid;place-items:center}
+.socials a{transition:border-color .2s,background .2s}
+.socials a:hover{border-color:var(--blue);background:rgba(122,184,234,.1)}
+.socials a:hover svg{fill:var(--blue)}
+.socials svg{width:18px;height:18px;fill:#ddd}
+.legal{margin-top:60px;padding-top:26px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;font-size:13px;color:var(--dim)}
+
+/* sticky mobile bar */
+.mbar{display:none}
+
+/* reveal */
+.rv{opacity:0;transform:translateY(26px);transition:opacity .8s ease,transform .8s ease}
+.rv.in{opacity:1;transform:none}
+
+/* ---------- responsive ---------- */
+@media (max-width:1080px){
+  .hero{display:block;padding:84px 0 60px;min-height:auto}
+  .hero-photo{position:relative;top:auto;width:auto;margin:0 0 32px}
+  .hero-photo img{height:auto;aspect-ratio:16/9}
+  .hero-photo::after{background:linear-gradient(0deg,var(--bg),transparent 40%)}
+  .hero-photo figcaption{right:auto;left:24px;bottom:12px}
+  .hero-inner{max-width:680px}
+  .stats{grid-template-columns:repeat(4,auto)}
+  .ba-grid{grid-template-columns:1fr 1fr}
+  .menu,.nav-phone{display:none}
+  .burger{display:flex}
+  .drawer{display:block;position:fixed;top:84px;left:0;right:0;bottom:0;background:rgba(8,8,8,.98);z-index:49;padding:30px 24px;transform:translateX(100%);transition:transform .35s ease}
+  .drawer.open{transform:none}
+  .drawer a:hover{color:var(--blue)}
+  .drawer a{display:block;padding:18px 0;border-bottom:1px solid var(--line);font-family:var(--display);font-weight:800;font-size:28px;letter-spacing:.06em;text-transform:uppercase}
+  .burger.x span:nth-child(1){transform:translateY(9px) rotate(45deg)}
+  .burger.x span:nth-child(2){opacity:0}
+  .burger.x span:nth-child(3){transform:translateY(-9px) rotate(-45deg)}
+  .split,.contact{grid-template-columns:1fr;gap:48px}
+  .grid-3,.reviews{grid-template-columns:1fr 1fr}
+  .why-grid{grid-template-columns:1fr 1fr}
+  .foot{grid-template-columns:1fr 1fr}
+  .gallery{grid-template-columns:repeat(3,1fr)}
+}
+@media (max-width:720px){
+  body{font-size:16px;padding-bottom:84px}
+  .wrap{padding:0 16px}
+  .nav{height:72px}
+  .drawer{top:72px}
+  .logo img{height:36px}
+  .nav .btn-sm{font-size:13px;padding:9px 13px}
+  section{padding:80px 0}
+  .hero{display:block;padding:72px 0 44px;min-height:auto}
+  .hero-photo{margin:0 0 28px}
+  .hero-photo img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;object-position:42% 60%}
+  .hero-photo::after{background:linear-gradient(0deg,var(--bg),transparent 38%)}
+  .hero-photo figcaption{left:16px;bottom:10px;font-size:11px}
+  .hero h1{font-size:44px}
+  .hero p.lead{margin:18px 0 26px;font-size:16px}
+  .hero-ctas .btn{width:100%}
+  .stats{display:grid;grid-template-columns:1fr 1fr;gap:0;margin-top:30px;padding-top:0;border-top:1px solid var(--line)}
+  .stat,.stat:first-child{padding:18px 0;border-left:0;border-bottom:1px solid var(--line)}
+  .stat:nth-child(odd){padding-right:14px;border-right:1px solid var(--line)}
+  .stat:nth-child(even){padding-left:18px}
+  .stat b{font-size:30px}
+  .stat span{font-size:11px}
+  .eyebrow{font-size:13px;letter-spacing:.26em}
+  .eyebrow::before{width:36px}
+  .grid-3,.reviews,.why-grid,.duo,.steps,.f2,.ba-grid{grid-template-columns:1fr}
+  .ba-grid{gap:44px}
+  .ba-bar b{font-size:20px}
+  .ba-bar{flex-direction:column;align-items:flex-start;gap:12px}
+  .steps{gap:56px}
+  .gallery{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;margin:0 -16px;padding:0 16px 4px;scroll-padding:0 16px}
+  .gallery::-webkit-scrollbar{display:none}
+  .gallery a,.gallery .tall,.gallery .wide{flex:0 0 84%;aspect-ratio:4/5;grid-row:auto;grid-column:auto;scroll-snap-align:start;border-radius:8px}
+  .gallery a::after{content:attr(data-cap);position:absolute;left:0;right:0;bottom:0;padding:40px 16px 14px;font-family:var(--display);font-weight:700;font-size:16px;letter-spacing:.14em;text-transform:uppercase;background:linear-gradient(0deg,rgba(8,8,8,.9),transparent)}
+  .gallery-dots{display:flex;justify-content:center;gap:8px;margin-top:20px}
+  .gallery-dots button{width:8px;height:8px;border-radius:8px;border:0;padding:0;background:rgba(255,255,255,.25);transition:width .3s,background .3s;cursor:pointer}
+  .gallery-dots button.on{width:26px;background:var(--brand)}
+  .form{padding:28px 20px}
+  .form h3{font-size:34px}
+  .duo .panel{min-height:380px}
+  .duo .panel .in{padding:24px}
+  .btn{font-size:17px;padding:16px 22px}
+  .foot{grid-template-columns:1fr}
+  .mbar{display:grid;grid-template-columns:1fr 1fr;gap:10px;position:fixed;left:0;right:0;bottom:0;z-index:60;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:rgba(8,8,8,.94);backdrop-filter:blur(12px);border-top:1px solid var(--line-2)}
+  .mbar .btn{padding:15px 8px;font-size:16px;letter-spacing:.1em}
+}
+@media (prefers-reduced-motion:reduce){
+  .brand-track{animation:none}
+  .rv{opacity:1;transform:none;transition:none}
+}
+</style>
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header>
+  <div class="wrap nav">
+    <a href="#top" class="logo" aria-label="Meticulous Car Detailing home"><img src="images/m-logo-1-1.webp" alt="Meticulous Mobile Detailing" width="789" height="250" fetchpriority="high"></a>
+    <nav class="menu" aria-label="Main">
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-right">
+      <a class="nav-phone" href="tel:0382035691">(03) 8203 5691</a>
+      <a class="btn btn-silver btn-sm" href="#quote">Free Quote</a>
+      <button class="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<div class="drawer" id="drawer">
+  <a href="#services">Services</a>
+  <a href="#process">Process</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#reviews">Reviews</a>
+  <a href="#contact">Contact</a>
+  <a href="tel:0382035691">Call (03) 8203 5691</a>
+</div>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <figure class="hero-photo">
+    <img src="images/5b.-BMW-M2-scaled.jpg" alt="Blue BMW M2 inside the Meticulous detailing studio" width="1600" height="1067" fetchpriority="high" decoding="async">
+    <figcaption>BMW M2 · Detailed in our Springvale studio</figcaption>
+  </figure>
+  <div class="wrap">
+    <div class="hero-inner">
+      <div class="eyebrow">South East Melbourne's Detailing Specialists</div>
+      <h1>Car Detailing &amp;<br><span class="metal">Ceramic Coating</span><br>Melbourne</h1>
+      <p class="lead">Expert craftsmanship that transforms your vehicle and protects your pride and joy. Accredited <strong>Magnum Ceramic Coating</strong> applicator with an <strong>8-year warranty</strong>, plus paint correction, interior detailing and <strong>mobile detailing</strong> from our Springvale workshop.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-silver" href="#quote">Get Your Free Quote →</a>
+        <a class="btn btn-ghost" href="tel:0382035691">📞 (03) 8203 5691</a>
+      </div>
+      <div class="stats">
+        <div class="stat"><b>5.0★</b><span>Google Rating</span></div>
+        <div class="stat"><b>180+</b><span>5-Star Reviews</span></div>
+        <div class="stat"><b>8-Year</b><span>Ceramic Warranty</span></div>
+        <div class="stat"><b>15 Min</b><span>Quote Turnaround</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BRANDS ============ -->
+<div class="brands" aria-label="Products we use">
+  <div class="brand-track">
+    <img src="images/1-1.png" alt="" width="420" height="155" decoding="async"><img src="images/2-1.png" alt="" width="420" height="155" decoding="async"><img src="images/3-1.png" alt="" width="420" height="155" decoding="async"><img src="images/4-1.png" alt="" width="420" height="155" decoding="async"><img src="images/5-1.png" alt="" width="420" height="155" decoding="async"><img src="images/6-1.png" alt="" width="420" height="155" decoding="async"><img src="images/7-1.png" alt="" width="420" height="155" decoding="async"><img src="images/Untitled-design-10.png" alt="" width="420" height="155" decoding="async">
+    <img src="images/1-1.png" alt="" width="420" height="155" decoding="async"><img src="images/2-1.png" alt="" width="420" height="155" decoding="async"><img src="images/3-1.png" alt="" width="420" height="155" decoding="async"><img src="images/4-1.png" alt="" width="420" height="155" decoding="async"><img src="images/5-1.png" alt="" width="420" height="155" decoding="async"><img src="images/6-1.png" alt="" width="420" height="155" decoding="async"><img src="images/7-1.png" alt="" width="420" height="155" decoding="async"><img src="images/Untitled-design-10.png" alt="" width="420" height="155" decoding="async">
+  </div>
+</div>
+
+<!-- ============ ABOUT ============ -->
+<section id="about">
+  <div class="wrap split">
+    <div class="text rv">
+      <div class="eyebrow">About Meticulous</div>
+      <h2>Melbourne's Most <span class="metal">Trusted</span> Detailers</h2>
+      <p>Our team doesn't just clean cars. We bring passion and precision to every vehicle that enters our <strong>Springvale workshop</strong>, treating it as if it were our own. From a <strong>safe hand wash</strong> to a <strong>multi-stage paint correction</strong> and <strong>ceramic coating</strong>, we restore, protect and enhance your car's finish.</p>
+      <p>We use only premium products from <strong>Gtechniq, Gyeon and Magnum</strong>, and every job starts with a free, no-obligation paint inspection.</p>
+      <ul class="ticks">
+        <li><span><strong>Unbeatable speed.</strong> Detailed quotes delivered in just 15 minutes.</span></li>
+        <li><span><strong>Exclusive expertise.</strong> Officially accredited Magnum Ceramic Coating specialists in Melbourne.</span></li>
+        <li><span><strong>Your convenience.</strong> Visit our Springvale workshop, or we come to you.</span></li>
+      </ul>
+    </div>
+    <div class="figure rv">
+      <img src="images/6_result-8.webp" alt="Happy client with a freshly detailed BMW M3" style="--f:55% 60%" width="1024" height="1024" decoding="async">
+      <div class="badge"><b class="metal">100%</b><span>Satisfaction guarantee. We'll fix any detail until you're thrilled, at no extra cost.</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section id="services" class="alt">
+  <div class="wrap">
+    <div class="sec-head center rv">
+      <div class="eyebrow center">Our Services</div>
+      <h2>Complete Detailing &amp;<br>Protection Solutions</h2>
+      <p class="lead">From a thorough car wash to advanced paint protection, everything your vehicle needs under one roof in South East Melbourne.</p>
+    </div>
+    <div class="grid-3">
+      <article class="card rv">
+        <div class="ph"><img src="images/1_result-15.webp" alt="Ceramic coating being applied to an applicator pad" loading="lazy" style="--f:50% 55%" width="1024" height="1024" decoding="async"></div>
+        <div class="body">
+          <h3>Ceramic Coating</h3>
+          <p>Lock in enduring gloss and robust paint protection with an accredited Magnum application, backed by an 8-year warranty.</p>
+          <ul><li>Hydrophobic shield</li><li>UV defence</li><li>Trim coating</li></ul>
+          <a class="more" href="#quote">Get a quote →</a>
+        </div>
+      </article>
+      <article class="card rv">
+        <div class="ph"><img src="images/26_result-6.webp" alt="Machine polishing a car's paintwork" loading="lazy" style="--f:45% 45%" width="600" height="600" decoding="async"></div>
+        <div class="body">
+          <h3>Paint Correction</h3>
+          <p>Erase swirls and scratches for a flawless, mirror-like finish. Stage 1 or multi-stage correction to suit your paint.</p>
+          <ul><li>Swirl removal</li><li>Scratch repair</li><li>Gloss boost</li></ul>
+          <a class="more" href="#quote">Get a quote →</a>
+        </div>
+      </article>
+      <article class="card rv">
+        <div class="ph"><img src="images/3_result-12.webp" alt="Detailed BMW interior with red leather seats" loading="lazy" style="--f:50% 60%" width="1024" height="1024" decoding="async"></div>
+        <div class="body">
+          <h3>Interior Detailing</h3>
+          <p>Restore your cabin to immaculate condition with steam cleaning, deep vacuuming and a full clean of every surface.</p>
+          <ul><li>Steam clean</li><li>Fabric protection</li><li>Leather care</li></ul>
+          <a class="more" href="#quote">Get a quote →</a>
+        </div>
+      </article>
+      <article class="card rv">
+        <div class="ph"><img src="images/41_result-4.webp" alt="Mitsubishi Evo with freshly coated paint" loading="lazy" style="--f:50% 68%" width="600" height="600" decoding="async"></div>
+        <div class="body">
+          <h3>Protective Coatings</h3>
+          <p>Shield wheels, glass, trim, leather and fabric with dedicated coatings that make cleaning effortless.</p>
+          <ul><li>Wheel coating</li><li>Glass coating</li><li>Leather &amp; fabric</li></ul>
+          <a class="more" href="#quote">Get a quote →</a>
+        </div>
+      </article>
+      <article class="card rv">
+        <div class="ph"><img src="images/LL-met-all-client_result-1.webp" alt="Snow foam pre-wash on a black car" loading="lazy" style="--f:50% 58%" width="600" height="600" decoding="async"></div>
+        <div class="body">
+          <h3>Maintenance Detail</h3>
+          <p>Preserve your protected perfection with a regular safe hand wash, decontamination and streak-free dry.</p>
+          <ul><li>Safe hand wash</li><li>Decontamination</li><li>Tyres dressed</li></ul>
+          <a class="more" href="#quote">Get a quote →</a>
+        </div>
+      </article>
+      <article class="card rv">
+        <div class="ph"><img src="images/1_result-12.webp" alt="White Volkswagen Golf GTI after a full detail" loading="lazy" style="--f:50% 78%" width="600" height="600" decoding="async"></div>
+        <div class="body">
+          <h3>Pre-Sale Detail</h3>
+          <p>A comprehensive full-detail package designed to command the highest possible value for your car before selling.</p>
+          <ul><li>Full exterior</li><li>Full interior</li><li>Presentation-ready</li></ul>
+          <a class="more" href="#quote">Get a quote →</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY ============ -->
+<section id="why">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div class="eyebrow">Why Meticulous</div>
+      <h2>Your Satisfaction,<br><span class="metal">Guaranteed</span></h2>
+    </div>
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+  <linearGradient id="clayBlue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9ccdf5"/><stop offset=".55" stop-color="#6aa3e6"/><stop offset="1" stop-color="#3f6fc4"/></linearGradient>
+  <linearGradient id="clayDeep" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6b9fe3"/><stop offset="1" stop-color="#2f5aa8"/></linearGradient>
+  <linearGradient id="clayWhite" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#cfe4f8"/></linearGradient>
+  <radialGradient id="clayFloor"><stop offset="0" stop-color="#4f86d6" stop-opacity=".45"/><stop offset="1" stop-color="#4f86d6" stop-opacity="0"/></radialGradient>
+  <filter id="clay" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="2.2" result="b"/>
+    <feOffset in="b" dx="-2.2" dy="-2.6" result="o1"/>
+    <feComposite in="SourceAlpha" in2="o1" operator="arithmetic" k2="1" k3="-1" result="hl"/>
+    <feFlood flood-color="#ffffff" flood-opacity=".75"/><feComposite in2="hl" operator="in" result="hlc"/>
+    <feOffset in="b" dx="2.6" dy="3.2" result="o2"/>
+    <feComposite in="SourceAlpha" in2="o2" operator="arithmetic" k2="1" k3="-1" result="sh"/>
+    <feFlood flood-color="#163c7a" flood-opacity=".55"/><feComposite in2="sh" operator="in" result="shc"/>
+    <feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="shc"/><feMergeNode in="hlc"/></feMerge>
+  </filter>
+</defs></svg>
+    <div class="why-grid rv">
+      <div class="why">
+        <div class="ico"><svg viewBox="0 0 64 64" aria-hidden="true"><ellipse cx="32" cy="58" rx="20" ry="3.6" fill="url(#clayFloor)"/><g filter="url(#clay)"><path d="M32 6c6 3.6 12.4 5.4 19 5.6 0 0 .6 4.2 0 11.4C49.8 37 42.6 46.8 32 52 21.4 46.8 14.2 37 13 23c-.6-7.2 0-11.4 0-11.4C19.6 11.4 26 9.6 32 6z" fill="url(#clayBlue)"/></g>
+  <g filter="url(#clay)"><path d="M23.5 29.5l6 6 11.5-12.5" fill="none" stroke="url(#clayWhite)" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round"/></g></svg></div>
+        <h3>8-Year Warranty</h3>
+        <p>We stand behind our Magnum Ceramic Coating with a comprehensive 8-year warranty.</p>
+      </div>
+      <div class="why">
+        <div class="ico"><svg viewBox="0 0 64 64" aria-hidden="true"><ellipse cx="32" cy="58" rx="20" ry="3.6" fill="url(#clayFloor)"/><g filter="url(#clay)"><path d="M21 33l-6 18 7.5-2.6L27 55l5-17z" fill="url(#clayDeep)"/><path d="M43 33l6 18-7.5-2.6L37 55l-5-17z" fill="url(#clayDeep)"/></g>
+  <g filter="url(#clay)"><circle cx="32" cy="25" r="17" fill="url(#clayBlue)"/></g>
+  <g filter="url(#clay)"><path d="M32 15.5l2.9 5.9 6.5.9-4.7 4.6 1.1 6.5L32 30.3l-5.8 3.1 1.1-6.5-4.7-4.6 6.5-.9z" fill="url(#clayWhite)"/></g></svg></div>
+        <h3>Accredited &amp; Insured</h3>
+        <p>Highly trained, fully insured and officially accredited detailers. Your car is in safe hands.</p>
+      </div>
+      <div class="why">
+        <div class="ico"><svg viewBox="0 0 64 64" aria-hidden="true"><ellipse cx="32" cy="58" rx="20" ry="3.6" fill="url(#clayFloor)"/><g filter="url(#clay)"><rect x="27" y="4" width="10" height="7" rx="3" fill="url(#clayDeep)"/><rect x="45" y="12" width="7" height="6" rx="2.5" transform="rotate(40 48.5 15)" fill="url(#clayDeep)"/></g>
+  <g filter="url(#clay)"><circle cx="32" cy="32" r="21" fill="url(#clayBlue)"/></g>
+  <g filter="url(#clay)"><circle cx="32" cy="32" r="14.5" fill="url(#clayWhite)"/></g>
+  <g filter="url(#clay)"><path d="M32 32V22.5M32 32l6.5 4" fill="none" stroke="url(#clayDeep)" stroke-width="4.4" stroke-linecap="round"/><circle cx="32" cy="32" r="3.2" fill="url(#clayDeep)"/></g></svg></div>
+        <h3>15-Minute Quotes</h3>
+        <p>A free paint inspection, then a clear and detailed quote within 15 minutes. No obligation.</p>
+      </div>
+      <div class="why">
+        <div class="ico"><svg viewBox="0 0 64 64" aria-hidden="true"><ellipse cx="32" cy="58" rx="20" ry="3.6" fill="url(#clayFloor)"/><g filter="url(#clay)"><path d="M30 5C24 15 13 26 13 37a17 17 0 0034 0C47 26 36 15 30 5z" fill="url(#clayBlue)"/></g>
+  <g filter="url(#clay)"><path d="M22 37a8 8 0 006.5 8" fill="none" stroke="url(#clayWhite)" stroke-width="4.6" stroke-linecap="round"/></g>
+  <g filter="url(#clay)"><path d="M48 6l2.3 5.7L56 14l-5.7 2.3L48 22l-2.3-5.7L40 14l5.7-2.3z" fill="url(#clayWhite)"/></g></svg></div>
+        <h3>Premium Products</h3>
+        <p>Only the best from Gtechniq, Gyeon and Magnum for superior, longer-lasting results.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section id="process" class="alt">
+  <div class="wrap">
+    <div class="sec-head center rv">
+      <div class="eyebrow center">Our Process</div>
+      <h2>Your Path to a<br>Perfectly Detailed Car</h2>
+    </div>
+    <div class="steps">
+      <div class="step rv"><div class="n">01</div><h4>Start the Conversation</h4><p>Call us or enquire online. Tell us about your car, your concerns and the results you want.</p></div>
+      <div class="step rv"><div class="n">02</div><h4>Free Expert Assessment</h4><p>Visit our Springvale workshop or book mobile. We'll give you a complimentary paint check.</p></div>
+      <div class="step rv"><div class="n">03</div><h4>Quote in Minutes</h4><p>Within 15 minutes of inspection you'll have a clear quote for the best care for your vehicle.</p></div>
+      <div class="step rv"><div class="n">04</div><h4>Secure Your Booking</h4><p>Happy with the quote? We'll book a time that suits you, at our workshop or your location.</p></div>
+      <div class="step rv"><div class="n">05</div><h4>The Transformation</h4><p>Our skilled technicians use premium products and proven techniques, with photo updates along the way.</p></div>
+      <div class="step rv"><div class="n">06</div><h4>Enjoy &amp; Maintain</h4><p>We present your car and share simple aftercare tips to keep it looking amazing for years.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WORKSHOP / MOBILE ============ -->
+<section id="mobile">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div class="eyebrow">Workshop &amp; Mobile</div>
+      <h2>We Come To You,<br><span class="metal">Or You Come To Us</span></h2>
+    </div>
+    <div class="duo">
+      <div class="panel rv">
+        <img src="images/8_result_1-2.webp" alt="Mercedes A45 under hexagon lights at the Springvale workshop" loading="lazy" style="--f:50% 62%" width="600" height="600" decoding="async">
+        <div class="in">
+          <span class="tag">Springvale Workshop</span>
+          <h3>Visit Our Detailing Centre</h3>
+          <p>Controlled lighting, the right tools and the perfect environment for ceramic coatings and paint correction. 19 Donald St, Springvale VIC 3171.</p>
+          <a class="btn btn-silver btn-sm" href="#contact">Get Directions →</a>
+        </div>
+      </div>
+      <div class="panel rv">
+        <img src="images/12_result-2.webp" alt="Detailer washing a red Mercedes on location" loading="lazy" style="--f:50% 70%" width="600" height="600" decoding="async">
+        <div class="in">
+          <span class="tag">Mobile Detailing · +$25</span>
+          <h3>We Come To Your Door</h3>
+          <p>Searching for quality "car detailing near me"? Our team can come to your home or workplace across South East Melbourne for just $25 extra.</p>
+          <a class="btn btn-ghost btn-sm" href="tel:0382035691">Book Mobile →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA BAND ============ -->
+<div class="band">
+  <div class="wrap rv">
+    <h2>Ready to Protect Your Investment?</h2>
+    <p class="lead">Get your free, no-obligation quote within 15 minutes. Expert advice tailored to your vehicle.</p>
+    <div class="row">
+      <a class="btn btn-silver" href="#quote">Get a Free Quote →</a>
+      <a class="btn btn-ghost" href="tel:0382035691">Call (03) 8203 5691</a>
+    </div>
+  </div>
+</div>
+
+<!-- ============ GALLERY ============ -->
+<section id="gallery" class="alt">
+  <div class="wrap">
+    <div class="sec-head center rv">
+      <div class="eyebrow center">Our Work</div>
+      <h2>Head-Turning Results</h2>
+      <p class="lead">Words can only say so much. Vehicles we've transformed for clients across South East Melbourne.</p>
+    </div>
+    <div class="gallery rv">
+      <a class="tall" href="images/10_result-4.webp" data-cap="Mercedes CLA 45"><img src="images/10_result-4.webp" alt="Mercedes CLA 45 rear after ceramic coating" loading="lazy" style="--f:50% 60%" width="600" height="600" decoding="async"></a>
+      <a class="wide" href="images/11_result-11.webp" data-cap="Hyundai i30 N"><img src="images/11_result-11.webp" alt="White Hyundai i30 N under hex lights" loading="lazy" style="--f:50% 76%" width="600" height="600" decoding="async"></a>
+      <a href="images/24_result-7.webp" data-cap="VW Golf GTI"><img src="images/24_result-7.webp" alt="Black Golf GTI with hexagon reflections" loading="lazy" style="--f:50% 62%" width="600" height="600" decoding="async"></a>
+      <a href="images/8_result-5.webp" data-cap="Honda Civic"><img src="images/8_result-5.webp" alt="Honda Civic hatch after detailing" loading="lazy" style="--f:50% 62%" width="600" height="600" decoding="async"></a>
+      <a href="images/41_result-4.webp" data-cap="Mitsubishi Evo"><img src="images/41_result-4.webp" alt="Mitsubishi Evo with glossy paint" loading="lazy" style="--f:50% 68%" width="600" height="600" decoding="async"></a>
+      <a class="tall" href="images/3_result-12.webp" data-cap="BMW M Interior"><img src="images/3_result-12.webp" alt="BMW M interior after detailing" loading="lazy" style="--f:50% 60%" width="1024" height="1024" decoding="async"></a>
+      <a class="wide" href="images/30_result-6.webp" data-cap="Mercedes GLA"><img src="images/30_result-6.webp" alt="White Mercedes GLA front" loading="lazy" style="--f:50% 68%" width="600" height="600" decoding="async"></a>
+      <a href="images/1_result-12.webp" data-cap="Golf GTI Clubsport"><img src="images/1_result-12.webp" alt="White Golf GTI Clubsport" loading="lazy" style="--f:50% 78%" width="600" height="600" decoding="async"></a>
+    </div>
+    <div class="gallery-dots" aria-hidden="true"></div>
+  </div>
+</section>
+
+<!-- ============ BEFORE / AFTER ============ -->
+<section id="results">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div class="eyebrow">Before &amp; After</div>
+      <h2>See the <span class="metal">Difference</span></h2>
+      <p class="lead">Real jobs from our Springvale workshop. Drag or tap to compare.</p>
+    </div>
+    <div class="ba-grid">
+      <figure class="ba rv">
+        <div class="ba-frame">
+          <img src="images/paint-correction-after.webp" alt="After: paintwork under an inspection light" loading="lazy" decoding="async">
+          <img class="before" src="images/paint-correction-before.webp" alt="Before: paintwork under an inspection light" loading="lazy" decoding="async">
+          <span class="ba-tag b">Before</span><span class="ba-tag a">After</span>
+          <span class="ba-line"></span><span class="ba-knob"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l-6 6 6 6M15 6l6 6-6 6"/></svg></span>
+          <input class="ba-range" type="range" min="0" max="100" value="50" aria-label="Drag to compare before and after: Paint Correction">
+        </div>
+        <figcaption class="ba-bar">
+          <div><b>Paint Correction</b><small>Swirls and scratches removed under inspection light</small></div>
+          <div class="ba-toggle" role="group" aria-label="Show before or after"><button type="button" data-v="100">Before</button><button type="button" data-v="0">After</button></div>
+        </figcaption>
+      </figure>
+      <figure class="ba rv">
+        <div class="ba-frame tall fade">
+          <img src="images/aftermusic1.webp" alt="After: Audi infotainment screens" loading="lazy" decoding="async">
+          <img class="before" src="images/beforemusic1.webp" alt="Before: Audi infotainment screens" loading="lazy" decoding="async">
+          <span class="ba-tag b">Before</span><span class="ba-tag a">After</span>
+          </div>
+        <figcaption class="ba-bar">
+          <div><b>Screen Protection</b><small>Audi infotainment screens cleaned and protected</small></div>
+          <div class="ba-toggle" role="group" aria-label="Show before or after"><button type="button" data-v="100">Before</button><button type="button" data-v="0">After</button></div>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REVIEWS ============ -->
+<section id="reviews">
+  <div class="wrap">
+    <div class="sec-head center rv">
+      <div class="eyebrow center">Client Reviews</div>
+      <h2>What Melbourne's<br>Car Owners Say</h2>
+    </div>
+    <div class="rating rv">
+      <div class="big">EXCELLENT</div>
+      <div class="stars">★★★★★</div>
+      <small>Based on <a href="https://www.google.com/search?q=Meticulous+Mobile+Detailing+Springvale" target="_blank" rel="noopener">180 Google reviews</a></small>
+    </div>
+    <div class="reviews">
+      <div class="review rv"><div class="who"><div class="av" style="background:#3b6ea5">S</div><div><b>Sochea Men</b><small>Google review</small></div><svg class="g" viewBox="0 0 48 48"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.4-.4-3.5z"/></svg></div><div class="stars">★★★★★</div><p>Absolutely blown away by the results! My car looks even better than the day I picked it up from the dealership. The ceramic coating has given it an incredible deep gloss and mirror-like finish.</p></div>
+      <div class="review rv"><div class="who"><div class="av" style="background:#7a4fa3">G</div><div><b>Garry Tonkin</b><small>Google review</small></div><svg class="g" viewBox="0 0 48 48"><use href="#gl"/></svg></div><div class="stars">★★★★★</div><p>Daniel was ultra-professional, and a pleasure to deal with. His detailing of my Mercedes coupe was outstanding; he promised a brilliant result, and over-delivered. I feel like I'm driving a brand new car.</p></div>
+      <div class="review rv"><div class="who"><div class="av" style="background:#2e8b6a">P</div><div><b>Prasanth S. Nair</b><small>Google review</small></div><svg class="g" viewBox="0 0 48 48"><use href="#gl"/></svg></div><div class="stars">★★★★★</div><p>The entire process of ordering a protection package for my new ultra red Tesla Model Y to taking delivery of the finished product was a breeze. Daniel updated me every step of the way.</p></div>
+      <div class="review rv"><div class="who"><div class="av" style="background:#b5523b">C</div><div><b>Christopher Feng</b><small>Google review</small></div><svg class="g" viewBox="0 0 48 48"><use href="#gl"/></svg></div><div class="stars">★★★★★</div><p>He did an amazing job getting rid of all the imperfections, scratches and damage the car had from the previous owner. It felt like I was stepping into a new car. The paint protection is no joke.</p></div>
+      <div class="review rv"><div class="who"><div class="av" style="background:#4a5d8f">M</div><div><b>MotorradTyp</b><small>Google review</small></div><svg class="g" viewBox="0 0 48 48"><use href="#gl"/></svg></div><div class="stars">★★★★★</div><p>Unlike other detailers attempting to upsell products that you don't need, Dan was realistic and narrowed things down to what was only relevant for me, and that is much appreciated.</p></div>
+      <div class="review rv"><div class="who"><div class="av" style="background:#9a7b2f">J</div><div><b>John Callaghan</b><small>Google review</small></div><svg class="g" viewBox="0 0 48 48"><use href="#gl"/></svg></div><div class="stars">★★★★★</div><p>We had the graphene ceramic package applied to our 2023 Mini Countryman, as well as an interior detail. The result was fantastic. 'Meticulous' is a great name for his business.</p></div>
+    </div>
+    <svg width="0" height="0" style="position:absolute"><defs><g id="gl"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.4-.4-3.5z"/></g></defs></svg>
+  </div>
+</section>
+
+<!-- ============ TEAM ============ -->
+<section id="team" class="alt">
+  <div class="wrap split">
+    <div class="figure team rv"><img src="images/3d22b1fd-f708-40bc-b141-567d1091364d_result.webp" alt="Daniel Do, founder of Meticulous Car Detailing" loading="lazy" width="1066" height="1600" decoding="async"></div>
+    <div class="text rv">
+      <div class="eyebrow">Meet the Team</div>
+      <h2>Led by <span class="metal">Daniel Do</span></h2>
+      <p>Our team shares your passion for automotive beauty and perfection. We combine years of experience with specialised skills like our <strong>Magnum Ceramic accreditation</strong>, pouring meticulous care into every vehicle.</p>
+      <p>Honesty, clear communication and lasting quality that protects your investment are our core values. Whether you drive a <strong>BMW, Mercedes, Lexus, Tesla, Toyota or Honda</strong>, we treat it like our own.</p>
+      <div style="margin-top:34px;display:flex;flex-wrap:wrap;gap:14px">
+        <a class="btn btn-silver" href="#quote">Book With Daniel →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT / QUOTE ============ -->
+<section id="contact">
+  <div class="wrap contact">
+    <div class="rv">
+      <div class="eyebrow">Find Us</div>
+      <h2>Our Springvale<br><span class="metal">Workshop</span></h2>
+      <div class="info">
+        <a class="row" href="tel:0382035691"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1.9.4 1.8.7 2.7a2 2 0 01-.5 2.1L8 9.8a16 16 0 006 6l1.3-1.3a2 2 0 012.1-.4c.9.3 1.8.6 2.7.7a2 2 0 011.7 2z"/></svg><div><small>Phone</small><b>(03) 8203 5691</b></div></a>
+        <a class="row" href="mailto:team@meticulouscardetailing.com.au"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg><div><small>Email</small><b>team@meticulouscardetailing.com.au</b></div></a>
+        <a class="row" href="https://maps.google.com/?q=19+Donald+St+Springvale+VIC+3171" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s7-6.2 7-12a7 7 0 10-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg><div><small>Address</small><b>19 Donald St, Springvale VIC 3171</b></div></a>
+      </div>
+      <div class="hours">
+        <div><span>Monday – Friday</span><span>9 am – 6 pm</span></div>
+        <div><span>Saturday</span><span>Closed</span></div>
+        <div><span>Sunday</span><span>Closed</span></div>
+      </div>
+      <div class="map"><iframe title="Map of 19 Donald St Springvale" loading="lazy" src="https://maps.google.com/maps?q=19%20Donald%20St%2C%20Springvale%20VIC%203171&z=15&output=embed"></iframe></div>
+    </div>
+
+    <form class="form rv" id="quote" onsubmit="return sendQuote(event)">
+      <div class="eyebrow">Get Your Proposal</div>
+      <h3>Free Quote <span class="metal">In 15 Minutes</span></h3>
+      <p class="sub">A few quick details is all we need. No obligation, no pressure.</p>
+      <div class="f2">
+        <div class="field"><label for="n">Name</label><input id="n" name="name" required autocomplete="name"></div>
+        <div class="field"><label for="p">Phone</label><input id="p" name="phone" type="tel" required autocomplete="tel"></div>
+      </div>
+      <div class="f2">
+        <div class="field"><label for="e">Email</label><input id="e" name="email" type="email" autocomplete="email"></div>
+        <div class="field"><label for="v">Vehicle</label><input id="v" name="vehicle" placeholder="e.g. 2024 Tesla Model Y"></div>
+      </div>
+      <div class="field"><label for="s">Service Required</label>
+        <select id="s" name="service" required>
+          <option value="">Select an option</option>
+          <option>Ceramic Coating</option>
+          <option>Paint Correction</option>
+          <option>Interior Detailing</option>
+          <option>Protective Coatings</option>
+          <option>Wheel Coating</option>
+          <option>Maintenance Detail</option>
+          <option>Pre-Sale Detail</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="field"><label for="m">Message</label><textarea id="m" name="message" placeholder="Tell us about your car and what you're after"></textarea></div>
+      <button class="btn btn-silver" type="submit">Get My Quote →</button>
+      <p class="note">Or call us directly on <a href="tel:0382035691" style="color:#fff">(03) 8203 5691</a></p>
+      <div class="ok" id="ok">Thanks! Your email app will open with your quote request ready to send.</div>
+    </form>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section id="faq" class="alt">
+  <div class="wrap">
+    <div class="sec-head center rv">
+      <div class="eyebrow center">Common Questions</div>
+      <h2>Frequently Asked Questions</h2>
+    </div>
+    <div class="faq rv">
+      <details open><summary>How quickly can I get a quote?</summary><p>Within 15 minutes. Bring your car to our Springvale workshop (or chat to us about mobile detailing) for a complimentary paint inspection, and you'll have a clear, detailed quote shortly after.</p></details>
+      <details><summary>What warranty comes with your ceramic coating?</summary><p>We're an accredited Magnum Ceramic Coating applicator, and our Magnum ceramic coating comes with a comprehensive 8-year warranty.</p></details>
+      <details><summary>Do you offer mobile car detailing?</summary><p>Yes. Our team can come to your home or workplace across South East Melbourne for an extra $25. Bookings are essential.</p></details>
+      <details><summary>Which products do you use?</summary><p>Only premium products from trusted brands including Gtechniq, Gyeon and Magnum, for superior and longer-lasting results.</p></details>
+      <details><summary>What if I'm not happy with the result?</summary><p>If you're not happy, we're not happy. Our 100% satisfaction guarantee means we'll fix any detail, no matter how small, until you're fully satisfied, at no extra cost.</p></details>
+      <details><summary>Where are you located and when are you open?</summary><p>Our detailing centre is at 19 Donald St, Springvale VIC 3171. We're open Monday to Friday, 9 am – 6 pm.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <img src="images/m-logo-1-1.webp" alt="Meticulous Mobile Detailing" width="789" height="250" loading="lazy" style="height:44px;width:auto;margin-bottom:20px">
+        <p>Expert car detailing in South East Melbourne that restores, protects and transforms your vehicle. Hundreds of satisfied clients.</p>
+        <div class="socials">
+          <a href="https://www.instagram.com/meticulousmdetailing/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 3.9 3.9 2.4 7.2 2.3 8.4 2.2 8.8 2.2 12 2.2zM12 0C8.7 0 8.3 0 7.1.1 2.7.3.3 2.7.1 7.1 0 8.3 0 8.7 0 12s0 3.7.1 4.9c.2 4.4 2.6 6.8 7 7 1.2.1 1.6.1 4.9.1s3.7 0 4.9-.1c4.4-.2 6.8-2.6 7-7 .1-1.2.1-1.6.1-4.9s0-3.7-.1-4.9c-.2-4.4-2.6-6.8-7-7C15.7 0 15.3 0 12 0zm0 5.8a6.2 6.2 0 100 12.4 6.2 6.2 0 000-12.4zM12 16a4 4 0 110-8 4 4 0 010 8zm6.4-11.8a1.4 1.4 0 100 2.9 1.4 1.4 0 000-2.9z"/></svg></a>
+          <a href="https://www.facebook.com/profile.php?id=61555623808477" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M9 8H6v4h3v12h5V12h3.6l.4-4h-4V6.3c0-1 .2-1.3 1.1-1.3H18V0h-3.8C10.6 0 9 1.6 9 4.6V8z"/></svg></a>
+          <a href="https://www.tiktok.com/@meticulousmdetail" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24"><path d="M19.6 6.7a4.8 4.8 0 01-3.8-4.2V2h-3.4v13.7a2.9 2.9 0 11-2-2.8V9.4a6.3 6.3 0 105.4 6.3V8.7a8.2 8.2 0 003.8 1.2V6.6l-.0.1z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h5>Services</h5>
+        <ul><li><a href="#services">Ceramic Coating</a></li><li><a href="#services">Paint Correction</a></li><li><a href="#services">Interior Detailing</a></li><li><a href="#services">Protective Coatings</a></li><li><a href="#services">Maintenance Detail</a></li><li><a href="#services">Pre-Sale Detail</a></li></ul>
+      </div>
+      <div>
+        <h5>Explore</h5>
+        <ul><li><a href="#about">About</a></li><li><a href="#process">Our Process</a></li><li><a href="#gallery">Gallery</a></li><li><a href="#reviews">Reviews</a></li><li><a href="#faq">FAQ</a></li><li><a href="#contact">Contact</a></li></ul>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="tel:0382035691">(03) 8203 5691</a></li>
+          <li><a href="mailto:team@meticulouscardetailing.com.au">team@meticulouscardetailing.com.au</a></li>
+          <li>19 Donald St, Springvale VIC 3171</li>
+          <li>Mon – Fri · 9 am – 6 pm</li>
+          <li>ABN 92 674 137 270</li>
+        </ul>
+      </div>
+    </div>
+    <div class="legal"><span>© <span id="yr"></span> Meticulous Car Detailing. All rights reserved.</span><span>Springvale · South East Melbourne · Workshop &amp; Mobile</span></div>
+  </div>
+</footer>
+
+<!-- sticky mobile bar -->
+<div class="mbar">
+  <a class="btn btn-ghost" href="tel:0382035691">📞 Call Now</a>
+  <a class="btn btn-silver" href="#quote">Free Quote</a>
+</div>
+
+<script>
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  // mobile menu
+  const burger = document.querySelector('.burger'), drawer = document.getElementById('drawer');
+  burger.addEventListener('click', () => {
+    const open = drawer.classList.toggle('open');
+    burger.classList.toggle('x', open);
+    burger.setAttribute('aria-expanded', open);
+  });
+  drawer.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    drawer.classList.remove('open'); burger.classList.remove('x'); burger.setAttribute('aria-expanded', false);
+  }));
+
+  // scroll reveal
+  const io = new IntersectionObserver(es => es.forEach(e => {
+    if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+  }), { threshold: .12 });
+  document.querySelectorAll('.rv').forEach(el => io.observe(el));
+
+  // mobile gallery dots
+  const gal = document.querySelector('.gallery'), dots = document.querySelector('.gallery-dots');
+  [...gal.children].forEach((a, i) => {
+    const b = document.createElement('button');
+    b.onclick = () => gal.scrollTo({ left: a.offsetLeft - gal.offsetLeft - 16, behavior: 'smooth' });
+    dots.appendChild(b);
+  });
+  const setDot = () => {
+    const w = gal.children[0].offsetWidth + 12, i = Math.round(gal.scrollLeft / w);
+    [...dots.children].forEach((d, k) => d.classList.toggle('on', k === i));
+  };
+  gal.addEventListener('scroll', setDot, { passive: true }); setDot();
+
+  // before / after sliders
+  document.querySelectorAll('.ba').forEach(ba => {
+    const frame = ba.querySelector('.ba-frame'), range = ba.querySelector('.ba-range'), btns = ba.querySelectorAll('.ba-toggle button');
+    if (frame.classList.contains('fade')) {
+      const show = b => { frame.classList.toggle('show-before', b); btns.forEach(x => x.classList.toggle('on', (x.dataset.v === '100') === b)); };
+      btns.forEach(x => x.addEventListener('click', () => show(x.dataset.v === '100')));
+      show(false); return;
+    }
+    const set = v => {
+      frame.style.setProperty('--x', v + '%'); range.value = v;
+      btns.forEach(b => b.classList.toggle('on', (v >= 100 && b.dataset.v === '100') || (v <= 0 && b.dataset.v === '0')));
+    };
+    range.addEventListener('input', () => set(+range.value));
+    btns.forEach(b => b.addEventListener('click', () => set(+b.dataset.v)));
+  });
+
+  // quote form -> opens an email draft (no backend yet)
+  function sendQuote(ev) {
+    ev.preventDefault();
+    const f = new FormData(ev.target);
+    const body = ['Name: ' + f.get('name'), 'Phone: ' + f.get('phone'), 'Email: ' + f.get('email'),
+      'Vehicle: ' + f.get('vehicle'), 'Service: ' + f.get('service'), '', f.get('message')].join('\n');
+    location.href = 'mailto:team@meticulouscardetailing.com.au?subject=' +
+      encodeURIComponent('Quote request – ' + f.get('service')) + '&body=' + encodeURIComponent(body);
+    document.getElementById('ok').style.display = 'block';
+    return false;
+  }
+</script>
+</body>
+</html>
